@@ -91,7 +91,6 @@ form {
   overflow-y: auto;
   overflow-x: hidden;
   cursor: pointer;
-  pointer-events: none;
 }
 
 .container::-webkit-scrollbar {
