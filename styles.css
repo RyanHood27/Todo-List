@@ -85,6 +85,10 @@ form {
   justify-content: space-around;
 }
 
+.container div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .tasks {
   height: 220px;
   margin: 10px 17px 0;
