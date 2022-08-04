@@ -20,6 +20,7 @@ body {
   background-color: black;
   color: var(--clr-light);
   height: 100vh;
+  overflow: none;
 
   display: flex;
   justify-content: center;
@@ -29,7 +30,7 @@ body {
 main {
   background: var(--clr-dark-grayish-cyan);
   border-radius: 5px;
-  width: 350px;
+  width: 330px;
   height: 400px;
   overflow: hidden;
 }
@@ -90,6 +91,7 @@ form {
   overflow-y: auto;
   overflow-x: hidden;
   cursor: pointer;
+  pointer-events: none;
 }
 
 .container::-webkit-scrollbar {
