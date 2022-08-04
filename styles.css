@@ -85,7 +85,7 @@ form {
   justify-content: space-around;
 }
 
-.container {
+.tasks {
   height: 220px;
   margin: 10px 17px 0;
   overflow-y: auto;
@@ -93,11 +93,11 @@ form {
   cursor: pointer;
 }
 
-.container::-webkit-scrollbar {
+.tasks::-webkit-scrollbar {
   width: 7px;
 }
 
-.container::-webkit-scrollbar-thumb {
+.tasks::-webkit-scrollbar-thumb {
   background: var(--clr-dark-blue);
   border-radius: 5px;
 }
